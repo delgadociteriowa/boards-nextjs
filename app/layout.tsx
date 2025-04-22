@@ -6,6 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "BOARDS",
   description: "Play classic board games online.",
+  keywords: 'chess, checkers, go, board, games'
 };
 
 const RootLayout = ({

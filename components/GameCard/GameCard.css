@@ -1,0 +1,50 @@
+.game__bck {
+  width: 300px;
+  height: 150px;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.game__title {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  width: 100%;
+  padding-top: 60px;
+}
+
+
+.game__cta__box {
+  background-color: #004237;
+  width: 300px;
+  height: 65px;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 10px 10px -8px #808080;
+}
+
+.game__cta {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.game__cta:hover {
+  text-decoration: none;
+  color: #a9fddb;
+  border: 1px solid #a9fddb;
+}
+
+.game__soon {
+  font-weight: 100;
+  margin: auto;
+}

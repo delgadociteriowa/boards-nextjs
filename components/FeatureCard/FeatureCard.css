@@ -1,0 +1,27 @@
+.features__card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  padding-top: 50px;
+  box-shadow: 0 10px 10px -8px #808080;
+}
+
+.card__img{
+  height: 84px;
+  font-size: 3.75em;
+}
+
+.card__img--devices{
+  height: 84px;
+  font-size: 4.75em;
+}
+
+.card__title {
+  margin-bottom: 15px;
+}
+
+.card__text {
+  font-size: .9rem;
+  margin: 0 50px;
+}
