@@ -6,7 +6,7 @@ import GameCheckersImg from '../../assets/games-checkers.png';
 import GameGoImg from '../../assets/games-go.png';
 
 interface GamesSelectionInterface {
-  isPage: Boolean;
+  isPage: boolean;
 }
 
 const GamesSelection = ({ isPage }: GamesSelectionInterface) => (

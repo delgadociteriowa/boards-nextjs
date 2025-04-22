@@ -42,14 +42,22 @@ const BoardChess = () => {
                 ...newChessGrid[i],
                 piece: `B${highPieces[pieceIndex]}`,
               };
-              i === 23 ? (pieceIndex = 0) : pieceIndex++;
+              if (i === 23) {
+                pieceIndex = 0;
+              } else {
+                pieceIndex++;
+              }
               break;
             case i >= 24 && i <= 31:
               newChessGrid[i] = {
                 ...newChessGrid[i],
                 piece: `BP${pieceIndex + 1}`,
               };
-              i === 31 ? (pieceIndex = 0) : pieceIndex++;
+              if (i === 31) {
+                pieceIndex = 0;
+              } else {
+                pieceIndex++;
+              }
               break;
             case i >= 32 && i <= 63:
               newChessGrid[i] = {
@@ -62,14 +70,22 @@ const BoardChess = () => {
                 ...newChessGrid[i],
                 piece: `WP${pieceIndex + 1}`,
               };
-              i === 71 ? (pieceIndex = 0) : pieceIndex++;
+              if (i === 71) {
+                pieceIndex = 0;
+              } else {
+                pieceIndex++;
+              }
               break;
             case i >= 72 && i <= 79:
               newChessGrid[i] = {
                 ...newChessGrid[i],
                 piece: `W${highPieces[pieceIndex]}`,
               };
-              i === 79 ? (pieceIndex = 0) : pieceIndex++;
+              if (i === 79) {
+                pieceIndex = 0;
+              } else {
+                pieceIndex++;
+              }
               break;
             case i >= 80:
               newChessGrid[i] = {
